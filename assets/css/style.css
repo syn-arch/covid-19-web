@@ -9,6 +9,7 @@
 .landing {
 	background: url(../img/landing.jpg) 50% 50%;
 	background-size: cover;
+	padding: 2rem;
 	background-position: center;
 	height: 100vh;
 	width: 100%;
@@ -55,6 +56,7 @@
 .discover-img {
 	background: url(../img/discover.jpg);
 	background-size: cover;
+	padding: 2rem;
 	height: 100vh;
 	width: 100%;
 	position: relative;
@@ -63,7 +65,8 @@
 .symptoms {
 	background: url(../img/symptoms.jpg);
 	background-size: cover;
-	height: 120vh;
+	padding: 2rem;
+	height: 100vh;
 	width: 100%;
 	position: relative;
 }
@@ -75,6 +78,7 @@
 .prevention {
 	background: url(../img/prevention.jpg);
 	background-size: cover;
+	padding: 2rem;
 	height: 120vh;
 	width: 100%;
 	position: relative;
@@ -82,4 +86,12 @@
 
 .footer {
 	background: #1f1f1f;
+}
+
+.arrow {
+	transition: .5s;
+}
+
+.arrow:hover {
+	width: 100px;
 }

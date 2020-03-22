@@ -47,13 +47,13 @@
 
   <div class="landing" id="landing">
     <div class="overlay text-white d-flex align-items-center">
-      <div class="container w-100 text-center" id="landing-text">
+      <div class="container w-100 text-center landing-text">
         <h1 class="text-center font-weight-bold landing-title d-block">COVID 19</h1>
         <div class="description-text text-center mb-5">
           <span class="font-weight-bold">Coronavirus disease 2019 (COVID-19)</span>
           is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in 2019 in Wuhan, Central China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic.
         </div>
-        <a href="#discover">
+        <a href="#discover" class="img-arrow">
           <img src="assets/img/arrow.png" alt="arrow icon" class="arrow img-fluid">
         </a>
       </div>
@@ -96,6 +96,7 @@
             </div>
           </form>
           <small class="text-muted text-center">But in the following days they felt like that they were the only people in the state who wanted to find out. </small>
+          <div class="vh5"></div>
         </div>
       </div>
     </div>
@@ -188,7 +189,7 @@
         <div class="vh5"></div>
         <div class="row prevention-rev">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
-            <i class="fa fa-user fa-lg fa-4x"></i>
+            <i class="fa fa-sign-language fa-lg fa-4x"></i>
           </div>
           <div class="col-md-10 mt-5">
             <h4 class="font-weight-bold">Wash your hands often</h4>
@@ -197,7 +198,7 @@
         </div>
         <div class="row mt-3 prevention-rev">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
-            <i class="fa fa-user fa-lg fa-4x"></i>
+            <i class="fa fa-mask fa-lg fa-4x"></i>
           </div>
           <div class="col-md-10 mt-3">
             <h4 class="font-weight-bold">Wear a face mask</h4>
@@ -206,7 +207,7 @@
         </div>
         <div class="row mt-3 prevention-rev">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
-            <i class="fa fa-user fa-lg fa-4x"></i>
+            <i class="fa fa-frown fa-lg fa-4x"></i>
           </div>
           <div class="col-md-10 mt-3">
             <h4 class="font-weight-bold">Avoid contact with sick people</h4>
@@ -261,7 +262,6 @@
   <!-- Optional JavaScript -->
   <script src="vendor/jquery-3.4.1.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="vendor/scrollreveal.min.js"></script>
   <script src="vendor/fa/js/all.min.js"></script>
   <script src="vendor/sweetalert2/sweetalert2.js"></script>
   <script src="assets/js/script.js"></script>

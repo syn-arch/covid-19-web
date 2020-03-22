@@ -40,29 +40,6 @@ $(function(){
 
     })
 
-    // ScrollReveal().reveal('.discover-left', {
-    //     origin : 'left',
-    //     distance : '50px',
-    //     delay : 0,
-    //     easing : 'ease-in-out',
-    //     reset:true
-    // })
-
-    // ScrollReveal().reveal('.discover-right', {
-    //     origin : 'right',
-    //     distance : '50px',
-    //     delay : 0,
-    //     easing : 'ease-in-out',
-    //     reset:true
-    // })
-
-    // ScrollReveal().reveal('.symptoms-element, .prevention-rev, .contaigon-rev, .subscribe-rev, #landing-text', {
-    //     origin : 'bottom',
-    //     distance : '50px',
-    //     delay : 100,
-    //     easing : 'ease-out',
-    //     reset:true
-    // })
 
     $('#subscribe-button').click(function(e){
         e.preventDefault()
