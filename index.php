@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="vendor/fa/css/all.min.css">
+  <link rel="stylesheet" href="vendor/sal/dist/sal.css">
+
 
   <title>COVID19 BY DIASCODE</title>
 </head>
@@ -47,7 +49,7 @@
 
   <div class="landing" id="landing">
     <div class="overlay text-white d-flex align-items-center">
-      <div class="container w-100 text-center landing-text">
+      <div class="container w-100 text-center landing-text" data-sal="slide-up" data-sal-duration="1000">
         <h1 class="text-center font-weight-bold landing-title d-block">COVID 19</h1>
         <div class="description-text text-center mb-5">
           <span class="font-weight-bold">Coronavirus disease 2019 (COVID-19)</span>
@@ -64,7 +66,7 @@
     <div class="row mr-0">
       <div class="col-md-6 discover-img text-white">
         <div class="overlay">
-          <div class="container discover-left">
+          <div class="container discover-left" data-sal="slide-right" data-sal-duration="1000">
           <h2 class="text-center font-weight-bold mt-5 mb-5">DISCOVER</h2>
             <ul>
               <li>8 new countries/territories/areas (Bulgaria, Costa Rica, Faroe Islands, French Guiana, Maldives, Malta, Martinique, and Republic of Moldova) have reported cases of COVID-19 in the past 24 hours.</li>
@@ -75,7 +77,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="container discover-right">
+        <div class="container discover-right" data-sal="slide-left" data-sal-duration="1000">
           <h2 class="text-center font-weight-bold mt-5">INFORMATION</h2>
           <p class="text-center">Live statistics and coronavirus news tracking the number of confirmed cases, recovered patients, and death toll by country due to the COVID 19 coronavirus from Wuhan, China. </p>
           <form id="form-information" method="POST" class="mt-5">
@@ -104,8 +106,8 @@
 
   <div class="symptoms text-white" id="symptoms">
     <div class="overlay">
-      <h2 class="text-center font-weight-bold mt-5 symptoms-element">SYMPTOMS</h2>
-      <div class="row mr-0 symptoms-element">
+      <h2 class="text-center font-weight-bold mt-5 symptoms-element" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="100">SYMPTOMS</h2>
+      <div class="row mr-0 symptoms-element" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300">
         <div class="col-md-6">
           <div class="container p-5">
             <h4>High Fever</h4>
@@ -114,7 +116,7 @@
         </div>
         <div class="col-md-6"></div>
       </div>
-      <div class="row mr-0 symptoms-element" style="transform: translateY(-100px);">
+      <div class="row mr-0 symptoms-element" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="500" style="transform: translateY(-100px);">
         <div class="col-md-6"></div>
         <div class="col-md-6">
           <div class="container p-5">
@@ -123,7 +125,7 @@
           </div>
         </div>
       </div>
-      <div class="row mr-0 symptoms-element" style="transform: translateY(-200px);">
+      <div class="row mr-0 symptoms-element" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="700" style="transform: translateY(-200px);">
         <div class="col-md-6">
           <div class="container p-5">
             <h4>Sore Throath</h4>
@@ -132,7 +134,7 @@
         </div>
         <div class="col-md-6"></div>
       </div>
-      <div class="row mr-0 symptoms-element" style="transform: translateY(-300px);">
+      <div class="row mr-0 symptoms-element" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="900" style="transform: translateY(-300px);">
         <div class="col-md-6"></div>
         <div class="col-md-6">
           <div class="container p-5">
@@ -146,11 +148,11 @@
 
   <div class="contaigon" id="contaigon">
     <div class="container mb-5">
-      <h2 class="text-center font-weight-bold mt-5 contaigon-rev">CONTAIGON</h2>
-      <p class="text-center contaigon-rev">As we can see in the chart, coronavirus spreads more easily than seasonal flu. The reproduction rate (also called "R0" or "R naught") is somewhere between 2 and 2.6. It's shown as a range because it varies between places and is influenced by the measures taken to slow transmission.</p>
+      <h2 class="text-center font-weight-bold mt-5 contaigon-rev" data-sal="slide-up" data-sal-duration="1000" >CONTAIGON</h2>
+      <p class="text-center contaigon-rev" data-sal="slide-up" data-sal-duration="1000">As we can see in the chart, coronavirus spreads more easily than seasonal flu. The reproduction rate (also called "R0" or "R naught") is somewhere between 2 and 2.6. It's shown as a range because it varies between places and is influenced by the measures taken to slow transmission.</p>
 
       <div class="row mt-5">
-        <div class="col-md-4 contaigon-rev">
+        <div class="col-md-4 contaigon-rev" data-sal="slide-up" data-sal-duration="1000">
           <div class="card">
             <div class="card-img">
               <img src="assets/img/c1.jpg" alt="Contaigon Img" class="card-img">
@@ -159,7 +161,7 @@
           <h4 class="mt-4">Personal Contact</h4>
           <p>close personal contact; contact with an object or surface with viral particles on it and then touching your mouth, nose or eyes.</p>
         </div>
-        <div class="col-md-4 contaigon-rev">
+        <div class="col-md-4 contaigon-rev" data-sal="slide-up" data-sal-duration="1000">
           <div class="card">
             <div class="card-img">
               <img src="assets/img/c2.jpg" alt="Contaigon Img" class="card-img">
@@ -168,7 +170,7 @@
           <h4 class="mt-4">Contaminated Objects</h4>
           <p>People may acquire coronavirus through air and by touching contaminated surfaces.</p>
         </div>
-        <div class="col-md-4 contaigon-rev">
+        <div class="col-md-4 contaigon-rev" data-sal="slide-up" data-sal-duration="1000">
           <div class="card">
             <div class="card-img">
               <img src="assets/img/c3.jpg" alt="Contaigon Img" class="card-img">
@@ -183,11 +185,11 @@
 
   <div class="prevention text-white" id="prevention">
     <div class="overlay">
-      <h2 class="text-center font-weight-bold mt-5 prevention-rev">Prevention</h2>
+      <h2 class="text-center font-weight-bold mt-5 prevention-rev" data-sal="slide-up" data-sal-duration="1000">Prevention</h2>
       <div class="container">
-        <p class="text-center prevention-rev">Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Most people who become infected experience mild illness and recover, but it can be more severe for others</p>
+        <p class="text-center prevention-rev" data-sal="slide-up" data-sal-duration="1000">Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Most people who become infected experience mild illness and recover, but it can be more severe for others</p>
         <div class="vh5"></div>
-        <div class="row prevention-rev">
+        <div class="row prevention-rev" data-sal="slide-up" data-sal-duration="1000">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
             <i class="fa fa-sign-language fa-lg fa-4x"></i>
           </div>
@@ -196,7 +198,7 @@
             <p>Clean your hands often. Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place.</p>
           </div>
         </div>
-        <div class="row mt-3 prevention-rev">
+        <div class="row mt-3 prevention-rev" data-sal="slide-up" data-sal-duration="1000">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
             <i class="fa fa-mask fa-lg fa-4x"></i>
           </div>
@@ -205,7 +207,7 @@
             <p>As coronavirus continues to spread, face masks in public are common in many parts of Asia, but the U.S. discourages them.</p>
           </div>
         </div>
-        <div class="row mt-3 prevention-rev">
+        <div class="row mt-3 prevention-rev" data-sal="slide-up" data-sal-duration="1000">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
             <i class="fa fa-frown fa-lg fa-4x"></i>
           </div>
@@ -219,7 +221,7 @@
   </div>
 
   <div class="subscribe">
-    <div class="container subscribe-rev">
+    <div class="container subscribe-rev" data-sal="slide-up" data-sal-duration="1000">
       <h2 class="text-center font-weight-bold mt-5">SUBSCRIBE</h2>
       <p class="text-center">Newsletter subscription. Subscribe to our newsletter and stay updated on the latest developments and special offers! Your newsletter preferences.</p>
       <div class="row">
@@ -264,6 +266,7 @@
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="vendor/fa/js/all.min.js"></script>
   <script src="vendor/sweetalert2/sweetalert2.js"></script>
+  <script src="vendor/sal/dist/sal.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

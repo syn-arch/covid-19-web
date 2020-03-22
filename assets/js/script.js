@@ -1,5 +1,7 @@
 $(function(){
 
+    sal();
+
     $('#country_name').hide()
 
     $('#categories').change(function(){
