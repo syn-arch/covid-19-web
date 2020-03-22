@@ -67,9 +67,9 @@
           <div class="container discover-left">
           <h2 class="text-center font-weight-bold mt-5 mb-5">DISCOVER</h2>
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde explicabo deserunt facilis cum perspiciatis quaerat aut quibusdam, ea assumenda delectus fugit rem voluptatibus iusto, esse blanditiis maiores! Laboriosam incidunt, quas!</li>
-              <li class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde explicabo deserunt facilis cum perspiciatis quaerat aut quibusdam, ea assumenda delectus fugit rem voluptatibus iusto, esse blanditiis maiores! Laboriosam incidunt, quas!</li>
-              <li class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde explicabo deserunt facilis cum perspiciatis quaerat aut quibusdam, ea assumenda delectus fugit rem voluptatibus iusto, esse blanditiis maiores! Laboriosam incidunt, quas!</li>
+              <li>8 new countries/territories/areas (Bulgaria, Costa Rica, Faroe Islands, French Guiana, Maldives, Malta, Martinique, and Republic of Moldova) have reported cases of COVID-19 in the past 24 hours.</li>
+              <li class="mt-3">Over 100 countries have now reported laboratory-confirmed cases of COVID19.</li>
+              <li class="mt-3">WHO has issued a consolidated package of existing preparedness and response guidance for countries to enable them to slow and stop COVID-19 transmission and save lives. WHO is urging all countries to prepare for the potential arrival of COVID-19 by readying emergency response systems; increasing capacity to detect and care for patients; ensuring hospitals have the space, supplies and necessary personnel; and developing life-saving medical interventions</li>
             </ul>
           </div>
         </div>
@@ -77,7 +77,7 @@
       <div class="col-md-6">
         <div class="container discover-right">
           <h2 class="text-center font-weight-bold mt-5">INFORMATION</h2>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, voluptatum!</p>
+          <p class="text-center">Live statistics and coronavirus news tracking the number of confirmed cases, recovered patients, and death toll by country due to the COVID 19 coronavirus from Wuhan, China. </p>
           <form id="form-information" method="POST" class="mt-5">
             <div class="form-group">
               <label for="categories">Categories</label>
@@ -95,7 +95,7 @@
               <button type="submit" class="btn btn-dark btn-block">Submit</button>
             </div>
           </form>
-          <small class="text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, expedita voluptatibus similique enim. In maiores, accusamus veritatis, id incidunt nulla dicta quis alias vel neque, cumque et dolorem at. Dignissimos.</small>
+          <small class="text-muted text-center">But in the following days they felt like that they were the only people in the state who wanted to find out. </small>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@
         <div class="col-md-6">
           <div class="container p-5">
             <h4>High Fever</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus doloribus atque, ullam magnam totam reprehenderit molestias dolores architecto! Sapiente nisi corporis numquam necessitatibus non, voluptatum illo rem ad optio est.</p>
+            <p>he WHO initially recommended using acetaminophen instead of ibuprofen to help reduce fever and aches and pains related to this coronavirus.</p>
           </div>
         </div>
         <div class="col-md-6"></div>
@@ -118,15 +118,15 @@
         <div class="col-md-6">
           <div class="container p-5">
             <h4>Cough</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus doloribus atque, ullam magnam totam reprehenderit molestias dolores architecto! Sapiente nisi corporis numquam necessitatibus non, voluptatum illo rem ad optio est.</p>
+            <p>What is a dry cough? Health experts say one symptom of COVID-19 is coughing without bringing up mucus</p>
           </div>
         </div>
       </div>
       <div class="row mr-0 symptoms-element" style="transform: translateY(-200px);">
         <div class="col-md-6">
           <div class="container p-5">
-            <h4>Sore Troath</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus doloribus atque, ullam magnam totam reprehenderit molestias dolores architecto! Sapiente nisi corporis numquam necessitatibus non, voluptatum illo rem ad optio est.</p>
+            <h4>Sore Throath</h4>
+            <p>In the US, the most common test for the COVID-19 virus looks for viral RNA in a sample taken with a swab from a person's nose or throat..</p>
           </div>
         </div>
         <div class="col-md-6"></div>
@@ -136,7 +136,7 @@
         <div class="col-md-6">
           <div class="container p-5">
             <h4>Headache</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus doloribus atque, ullam magnam totam reprehenderit molestias dolores architecto! Sapiente nisi corporis numquam necessitatibus non, voluptatum illo rem ad optio est.</p>
+            <p>That's the most common symptom among people who get the coronavirus that's sweeping the world..</p>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
   <div class="contaigon" id="contaigon">
     <div class="container mb-5">
       <h2 class="text-center font-weight-bold mt-5 contaigon-rev">CONTAIGON</h2>
-      <p class="text-center contaigon-rev">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tenetur laudantium temporibus autem nihil quis doloremque recusandae fuga nobis, est, minima odio sunt asperiores. Repellat debitis totam esse, odit illum!</p>
+      <p class="text-center contaigon-rev">As we can see in the chart, coronavirus spreads more easily than seasonal flu. The reproduction rate (also called "R0" or "R naught") is somewhere between 2 and 2.6. It's shown as a range because it varies between places and is influenced by the measures taken to slow transmission.</p>
 
       <div class="row mt-5">
         <div class="col-md-4 contaigon-rev">
@@ -156,25 +156,25 @@
             </div>
           </div>
           <h4 class="mt-4">Personal Contact</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at maxime tempora eveniet autem omnis suscipit voluptatum beatae aperiam natus.</p>
+          <p>close personal contact; contact with an object or surface with viral particles on it and then touching your mouth, nose or eyes.</p>
         </div>
         <div class="col-md-4 contaigon-rev">
           <div class="card">
             <div class="card-img">
-              <img src="assets/img/c1.jpg" alt="Contaigon Img" class="card-img">
+              <img src="assets/img/c2.jpg" alt="Contaigon Img" class="card-img">
             </div>
           </div>
           <h4 class="mt-4">Contaminated Objects</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at maxime tempora eveniet autem omnis suscipit voluptatum beatae aperiam natus.</p>
+          <p>People may acquire coronavirus through air and by touching contaminated surfaces.</p>
         </div>
         <div class="col-md-4 contaigon-rev">
           <div class="card">
             <div class="card-img">
-              <img src="assets/img/c1.jpg" alt="Contaigon Img" class="card-img">
+              <img src="assets/img/c3.jpg" alt="Contaigon Img" class="card-img">
             </div>
           </div>
           <h4 class="mt-4">Animal Contact</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at maxime tempora eveniet autem omnis suscipit voluptatum beatae aperiam natus.</p>
+          <p>They should avoid contact with live animal markets, stray animals and wild animals, and should not eat raw fish, or other raw animal.</p>
         </div>
       </div>
     </div>
@@ -184,7 +184,7 @@
     <div class="overlay">
       <h2 class="text-center font-weight-bold mt-5 prevention-rev">Prevention</h2>
       <div class="container">
-        <p class="text-center prevention-rev">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tenetur laudantium temporibus autem nihil quis doloremque recusandae fuga nobis, est, minima odio sunt asperiores. Repellat debitis totam esse, odit illum!</p>
+        <p class="text-center prevention-rev">Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Most people who become infected experience mild illness and recover, but it can be more severe for others</p>
         <div class="vh5"></div>
         <div class="row prevention-rev">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
@@ -192,25 +192,25 @@
           </div>
           <div class="col-md-10 mt-5">
             <h4 class="font-weight-bold">Wash your hands often</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui obcaecati eius nisi dolorum, quod eveniet temporibus ipsum illum. Porro voluptatem obcaecati, dolorum quia soluta eaque! Quaerat voluptatibus assumenda accusamus.</p>
+            <p>Clean your hands often. Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place.</p>
           </div>
         </div>
-        <div class="row mt-5 prevention-rev">
+        <div class="row mt-3 prevention-rev">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
             <i class="fa fa-user fa-lg fa-4x"></i>
           </div>
-          <div class="col-md-10 mt-5">
+          <div class="col-md-10 mt-3">
             <h4 class="font-weight-bold">Wear a face mask</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui obcaecati eius nisi dolorum, quod eveniet temporibus ipsum illum. Porro voluptatem obcaecati, dolorum quia soluta eaque! Quaerat voluptatibus assumenda accusamus.</p>
+            <p>As coronavirus continues to spread, face masks in public are common in many parts of Asia, but the U.S. discourages them.</p>
           </div>
         </div>
-        <div class="row mt-5 prevention-rev">
+        <div class="row mt-3 prevention-rev">
           <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
             <i class="fa fa-user fa-lg fa-4x"></i>
           </div>
-          <div class="col-md-10 mt-5">
+          <div class="col-md-10 mt-3">
             <h4 class="font-weight-bold">Avoid contact with sick people</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui obcaecati eius nisi dolorum, quod eveniet temporibus ipsum illum. Porro voluptatem obcaecati, dolorum quia soluta eaque! Quaerat voluptatibus assumenda accusamus.</p>
+            <p>Steps to help prevent the spread of COVID-19 if you are sick, Limit contact with pets & animals: You should restrict contact with pets and other animals.</p>
           </div>
         </div>
       </div>
@@ -220,7 +220,7 @@
   <div class="subscribe">
     <div class="container subscribe-rev">
       <h2 class="text-center font-weight-bold mt-5">SUBSCRIBE</h2>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tenetur laudantium temporibus autem nihil quis doloremque recusandae fuga nobis, est, minima odio sunt asperiores. Repellat debitis totam esse, odit illum!</p>
+      <p class="text-center">Newsletter subscription. Subscribe to our newsletter and stay updated on the latest developments and special offers! Your newsletter preferences.</p>
       <div class="row">
        <div class="col-md-6 offset-md-3">
          <div class="input-group mt-4">

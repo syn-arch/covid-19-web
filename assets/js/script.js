@@ -66,6 +66,14 @@ $(function(){
 
     $('#subscribe-button').click(function(e){
         e.preventDefault()
+
+        var input = $('.input-subscribe').val();
+
+        if (input == '') {
+            Swal.fire('Warning','Email cannot empty!','warning')
+            return
+        }
+
         $('.input-subscribe').val('')
         $('.input-subscribe').focus()
         Swal.fire('Thanks very much','Subscribe successfully!','success')
@@ -87,7 +95,7 @@ $(function(){
                 return
             }
 
-             $.ajax({
+            $.ajax({
                 url : "https://corona.lmao.ninja/countries/"+country,
                 success : function(data){
                     var respon = data
