@@ -80,9 +80,97 @@ $(function(){
         }
 
         if (categories == 'get_by_country') {
-            if ($('.country_name').val() == '') {
+            var country = $('.country_name').val()
+
+            if (country == '') {
                 Swal.fire('Warning','You not input country name yet!','warning')
+                return
             }
+
+             $.ajax({
+                url : "https://corona.lmao.ninja/countries/"+country,
+                success : function(data){
+                    var respon = data
+                    var today = new Date();
+                    var dd = String(today.getDate()).padStart(2, '0');
+                    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                    var yyyy = today.getFullYear();
+
+                    today = dd + '/' + mm + '/' + yyyy;
+
+                    if (respon == 'Country not found') {
+                        Swal.fire('Error','Country not found!','error')
+                        return
+                    }
+
+                    Swal.fire({
+                      title: '<strong>RESULT</strong>',
+                      html:
+                      `<table class="table">
+                      <tr>
+                      <th colspan="2">Updated at : <span>`+today+`</span></th>
+                      </tr>
+                      <tr>
+                      <th>Country</th>
+                      <td>`+data.country+`</td>
+                      </tr>
+                      <tr>
+                      <th>Total Cases</th>
+                      <td>`+data.cases+`</td>
+                      </tr>
+                      <tr>
+                      <th>Total Deaths</th>
+                      <td>`+data.deaths+`</td>
+                      </tr>
+                      <tr>
+                      <th>Total Recovered</th>
+                      <td>`+data.recovered+`</td>
+                      </tr>
+                      </table>`
+                      ,
+                      showCloseButton: true
+                  })
+                }
+            })
+
         }
+
+        if (categories == "worldwide") {
+            $.ajax({
+                url : "https://corona.lmao.ninja/all",
+                success : function(data){
+                    var today = new Date();
+                    var dd = String(today.getDate()).padStart(2, '0');
+                    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                    var yyyy = today.getFullYear();
+
+                    today = dd + '/' + mm + '/' + yyyy;
+                    Swal.fire({
+                      title: '<strong>RESULT</strong>',
+                      html:
+                      `<table class="table">
+                      <tr>
+                      <th colspan="2">Updated at : <span>`+today+`</span></th>
+                      </tr>
+                      <tr>
+                      <th>Total Cases</th>
+                      <td>`+data.cases+`</td>
+                      </tr>
+                      <tr>
+                      <th>Total Deaths</th>
+                      <td>`+data.deaths+`</td>
+                      </tr>
+                      <tr>
+                      <th>Total Recovered</th>
+                      <td>`+data.recovered+`</td>
+                      </tr>
+                      </table>`
+                      ,
+                      showCloseButton: true
+                  })
+                }
+            })
+        }
+
     })
 })
