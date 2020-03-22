@@ -1,0 +1,85 @@
+* {
+	font-family: "poppins";
+}
+
+.navbar {
+	transition: .2s ease-in !important;
+}
+
+.landing {
+	background: url(../img/landing.jpg) 50% 50%;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.vh5{
+	position: relative;
+	height: 5vh;
+}
+
+.vh10{
+	position: relative;
+	height: 10vh;
+}
+
+.vh15{
+	position: relative;
+	height: 15vh;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.6);
+}
+
+.landing-title {
+	font-size: 60px;
+}
+
+.description-text {
+	font-size: 20px;
+}
+
+.arrow {
+	filter: invert(10);
+	width: 70px;
+}
+
+.discover-img {
+	background: url(../img/discover.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.symptoms {
+	background: url(../img/symptoms.jpg);
+	background-size: cover;
+	height: 120vh;
+	width: 100%;
+	position: relative;
+}
+
+.navbar-brand:hover {
+	text-decoration:none;
+}
+
+.prevention {
+	background: url(../img/prevention.jpg);
+	background-size: cover;
+	height: 130vh;
+	width: 100%;
+	position: relative;
+}
+
+.footer {
+	background: #1f1f1f;
+}
